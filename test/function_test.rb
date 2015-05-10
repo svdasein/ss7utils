@@ -1,23 +1,14 @@
 require 'test/unit'
+require 'ss7utils'
+
+include Ss7utils
 
 class MyTest < Test::Unit::TestCase
-
-  # Called before every test method runs. Can be used
-  # to set up fixture information.
-  def setup
-    # Do nothing
+  def test_pc2hex
+    assert_equal '6fde7b', pc2hex('123-222-111')
   end
 
-  # Called after every test method runs. Can be used to tear
-  # down fixture information.
-
-  def teardown
-    # Do nothing
-  end
-
-  # Fake test
-  def test_fail
-
-    fail('Not implemented')
+  def test_hex2pc
+    assert_equal '123-222-111',hex2pc('6fde7b')
   end
 end
