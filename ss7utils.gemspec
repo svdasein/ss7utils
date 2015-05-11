@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["daveparker01@gmail.com"]
 
   spec.summary       = %q{SS7 point code manipulation routines}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = 'A few functions that manipulate SS7 point codes'
+  spec.homepage      = "https://github.com/svdasein/ss7utils"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
