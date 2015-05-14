@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "ss7utils"
   spec.version       = Ss7utils::VERSION
   spec.authors       = ["dparker"]
-  spec.email         = ["daveparker01@gmail.com"]
+  spec.email         = ["svdasein@github"]
 
   spec.summary       = %q{SS7 point code manipulation routines}
   spec.description   = 'A few functions that manipulate SS7 point codes'
